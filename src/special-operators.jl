@@ -3,7 +3,8 @@ import Base.eltypeof, Base.promote_eltypeof
 export opEye, opOnes, opZeros, opDiagonal, opRestriction, opExtension, BlockDiagonalOperator
 
 
-"""`opEye()`
+"""
+    opEye()
 
 Identity operator.
 ```

@@ -51,7 +51,7 @@ increase_ntprod(op::AbstractLinearOperator) = (op.ntprod += 1)
 increase_nctprod(op::AbstractLinearOperator) = (op.nctprod += 1)
 
 """
-  reset!(op)
+    reset!(op)
 
 Reset the product counters of a linear operator.
 """
